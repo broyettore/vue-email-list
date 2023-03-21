@@ -1,0 +1,64 @@
+/********* RESET *********/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********* COMMON *********/
+
+h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a, button, i, li {
+    cursor: pointer;
+}
+
+/********* HEADER*********/
+
+
+
+/********* MAIN *********/
+
+
+
+
+
+
+
+
+/*** toggle nav
+
+header > .container {
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    top: 60px;
+    left: -200%;
+    width: 100%;
+    z-index: 10;
+    transition: left 1s;
+}
+
+header nav ul li{
+    padding: 5px;
+}
+
+.show {
+    left: 0;
+}
+
+*****/
